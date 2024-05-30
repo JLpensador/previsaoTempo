@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="src/image/icone.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script defer src="src/js/scripts.js"></script>
+    
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="botão-buscar" onclick="botãoClicar()">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        </button>
+        
+        <div class="caixa-média">
+            <h2 class="cidade">Tempo em São Paulo</h2>
+            
+            <p class="temp">21°C</p>
+            
+            <div class="caixa-menor">
+                <img class="img-previsão" alt="ícone-ifo-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="texto-previsão">Nublado</p>
+            </div>
+            
+            <p class="umidade">Umidade: 76%</p>
+        </div>
+    </div>
+    </body>
+</html>

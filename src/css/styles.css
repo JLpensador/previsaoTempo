@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.caixa-maior {
+  background: black;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 20px;
+  width: 95%;
+  max-width: 450px;
+}
+
+.input-cidade {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: calc(100% - 100px);
+}
+
+.botão-buscar {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  /* background-color: ; */
+  cursor: pointer;
+  float: right;
+}
+
+.botão-buscar:hover {
+  color: rgb(255, 255, 255);
+}
+
+.img-busca {
+  width: 20px;
+}
+
+.caixa-média {
+  margin-top: 30px;
+}
+
+.cidade {
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.temp {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.caixa-menor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.texto-previsão {
+  color: white;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.umidade {
+  color: white;
+  margin-top: 20px;
+}
